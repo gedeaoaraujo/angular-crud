@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --color-primary: #5E9CFE;
+    --color-secondary: #22269E;
+    --color-terciary: #8849FF;
+
+    --color-warning: #a50909;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.v-middle {
+    vertical-align: middle;
+}
+
+.msg-success {
+    background-color: var(--color-terciary);
+    color: white;
+}
+
+.msg-success .mat-simple-snackbar-action {
+    color: white;
+}
+
+.msg-error {
+    background-color: var(--color-warning);
+    color: white;
+}
+
+.msg-error .mat-simple-snackbar-action {
+    color: white;
+}
